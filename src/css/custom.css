@@ -1,0 +1,97 @@
+.seo-wizard-nav {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  margin-bottom: 2rem;
+}
+
+.seo-wizard-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.seo-wizard-nav li {
+  margin: 0;
+}
+
+.seo-wizard-nav a {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary);
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.seo-wizard-nav a:hover,
+.seo-wizard-nav a.active {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.6;
+}
+
+.privacy-content h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.privacy-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.privacy-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Add styles for SEO-Wizard menu item */
+.menu-item-seo-wizard {
+  position: relative;
+  padding: 8px 12px;
+}
+
+.menu-item-seo-wizard:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--ifm-menu-color-active);
+}
+
+/* Submenu styles for SEO-Wizard */
+.seo-wizard-submenu {
+  padding-left: 1rem;
+}
+
+.seo-wizard-submenu .menu-item {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+/* Privacy policy menu item styles */
+.menu-item-privacy {
+  color: var(--ifm-menu-color);
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+.menu-item-privacy:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--ifm-menu-color-active);
+}
+
+/* 404 Redirect App specific styles */
+.redirect-app-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.redirect-app-section:last-child {
+  border-bottom: none;
+} 
